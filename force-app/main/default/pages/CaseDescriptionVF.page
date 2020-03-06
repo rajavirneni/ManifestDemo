@@ -1,0 +1,10 @@
+<apex:page standardController="Case" showHeader="false" sidebar="false">
+    <apex:pageBlock title="Case Description" >
+       <apex:outputText value="Case Description Length is : {!LEN(Case.Description)}"></apex:outputText>
+    	<div style="height:500px !important;width:150px;overflow-y:scroll;">
+    		<apex:outputPanel >
+                <apex:outputText value="{!Case.Description}" />
+     		</apex:outputPanel>
+		</div>
+	</apex:pageBlock> 
+</apex:page>

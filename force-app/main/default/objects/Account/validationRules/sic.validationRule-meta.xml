@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sic</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(
+OR(
+REGEX(Sic,&quot;^\\d{4}$&quot;),
+REGEX(Sic,&quot;unknown&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>SIC must be 4 digit number or unknown</errorMessage>
+</ValidationRule>

@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="OpportunityBannerController">
+	<aura:handler name="init" value="{!this}" action="{!c.getProductsCount}" />
+	<!-- <b>This is recordID {!v.recordId} </b><br/> -->
+    <lightning:notificationsLibrary aura:id="notifLib"/>
+</aura:component>
