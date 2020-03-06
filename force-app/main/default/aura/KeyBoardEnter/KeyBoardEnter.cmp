@@ -1,7 +1,0 @@
-<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
-	<div style="text-align: center;" onkeyup="{!c.formPress}">
-		<ui:inputText aura:id="firstName" label="First Name" />
-		<ui:inputText aura:id="lastName" label="Last Name" />
-		<ui:button label="Submit" press="{!c.buttonPress}" />
-	</div>
-</aura:component>

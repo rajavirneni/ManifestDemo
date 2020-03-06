@@ -1,3 +1,0 @@
-<aura:component implements="flexipage:availableForRecordHome,lightning:actionOverride,force:hasRecordId,force:lightningQuickAction" access="global" >
-    <aura:handler name="init" value="{!this}" action="{!c.createAccount}" />
-</aura:component>
