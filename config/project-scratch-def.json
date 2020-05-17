@@ -1,5 +1,113 @@
 {
-  "orgName": "ravirneni company",
-  "edition": "Developer",
-  "features": []
+  "orgName": "DX Demo Org",
+  "edition": "Enterprise",
+  "features": [
+    "FieldAuditTrail",
+    "ContactsToMultipleAccounts",
+    "StateAndCountryPicklist",
+    "RecordTypes",
+    "ServiceCloud",
+    "ServiceUser",
+    "CaseClassification",
+    "WorkThanksPref",
+    "Knowledge",
+    "LiveAgent"
+  ],
+  "settings": {
+    "actionsSettings": {
+      "enableDefaultQuickActionsOn": true
+    },
+    "territory2Settings": {
+      "enableTerritoryManagement2": true
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench":  true,
+      "enableEndUserLanguages": true
+    },
+    "nameSettings": {
+        "enableMiddleName": true,
+        "enableNameSuffix": true
+    },
+    "chatterSettings": {
+        "enableChatter": true,
+        "enableFeedsRichText": true,
+        "allowRecordsInChatterGroup": true
+    },
+    "chatterEmailsMDSettings": {
+      "enableCollaborationEmail": true
+    },
+    "contentSettings": {
+      "enableContent": true
+    },
+    "emailAdministrationSettings": {
+        "enableEnhancedEmailEnabled": true,
+        "enableSendViaGmailPref": false,
+        "enableSendViaExchangePref": true,
+        "sendMassEmailNotification": true
+    },
+    "emailIntegrationSettings": {
+      "enableGmailIntegration": false,
+      "enableOutlookIntegration": true,
+      "enableContactAndEventSync": true,
+      "isLayoutCustomizationAllowed": true
+    },
+    "accountSettings": {
+      "enableAccountTeams": true
+    },
+    "securitySettings": {
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
+      },
+      "enableAuditFieldsInactiveOwner": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
+    "quoteSettings": {
+      "enableQuote": true
+    },
+    "activitiesSettings": {
+      "enableGroupTasks": true
+    },
+    "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+    },
+    "workDotComSettings": {
+      "enableWorkThanksPref": true
+    },
+    "accountIntelligenceSettings": {
+      "enableNewsStories": true
+    },
+    "knowledgeSettings":{
+        "answers":{
+          "enableArticleCreation":false
+        },
+        "cases":{
+            "enableArticleCreation":false,
+            "enableArticlePublicSharingSites":false,
+            "enableCaseDataCategoryMapping":true,
+            "useProfileForPDFCreation":false
+        },
+        "defaultLanguage":"en_US",
+        "enableChatterQuestionKBDeflection":false,
+        "enableCreateEditOnArticlesTab":true,
+        "enableExternalMediaContent":true,
+        "enableKnowledge":true,
+        "enableLightningKnowledge":true,
+        "showArticleSummariesCustomerPortal":true,
+        "showArticleSummariesInternalApp":true,
+        "showArticleSummariesPartnerPortal":true,
+        "showValidationStatusField":true
+    },
+    "omniChannelSettings": {
+        "enableOmniChannel": true
+    },
+    "sharingSettings": {
+      "enableAssetSharing": true,
+      "enableExternalSharingModel": true
+    },
+    "liveAgentSettings": {
+      "enableLiveAgent": true
+    }
+  }  
 }
